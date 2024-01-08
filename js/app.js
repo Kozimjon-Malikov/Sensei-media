@@ -42,10 +42,8 @@ window.addEventListener("DOMContentLoaded", () => {
     yurak.addEventListener("click", () => {
       chance__items.classList.toggle("activeChance");
     });
-    blackker.addEventListener("click", (event) => {
-      event.preventDefault();
-      event.stopPropagation();
-      document.body.classList.toggle("bodyDark");
+    blackker.addEventListener("click", () => {
+      document.querySelector('.body__wrapper').classList.toggle('bodyDark');
     });
     let fsize=16;
     inc.addEventListener('click',()=>{
