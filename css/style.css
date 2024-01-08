@@ -69,8 +69,22 @@ header .container .flex {
   line-height: 24px;
   transition: 0.4s ease;
 }
-.navbar ul li a:hover{
-    border-bottom: 1px solid #212121;
+.navbar ul li a{
+    position: relative;
+}
+.navbar ul li a::after{
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #CB1D95;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+.navbar ul li a:hover::after{
+    width: 100%;
 }
 
 /* visit  */
