@@ -1,0 +1,120 @@
+@media (max-width: 992px) {
+  .flex {
+    flex-wrap: wrap;
+  }
+  .logo{
+    margin-right: auto;
+  }
+  .logo a img {
+    max-width: 170px;
+  }
+  .navigation {
+    display: flex;
+    position: absolute;
+    right: 10%;
+    top: 25px;
+    gap: 10px;
+  }
+  .navbar .line{
+    width: 30px;
+  }
+  header .container .flex {
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    height: fit-content;
+    padding: 15px 0px;
+  }
+  .navbar {
+    padding: 0;
+    margin: 0;
+    display: none;
+  }
+  .navbar ul {
+  }
+  .buy {
+    display: none;
+  }
+  .navbar ul li {
+    margin-top: 10px;
+    padding-left: 10px;
+  }
+
+  .visits .container .flex {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text__visit {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .img__visit {
+    margin-top: 20px;
+  }
+  .tags {
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .wrapper__box {
+    margin-top: 40px;
+  }
+  .box {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .box__items{
+    border: none;
+  }
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+  .contr {
+    display: flex;
+    flex-direction: column;
+  }
+  .contr .form__control {
+    flex: 1;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .container {
+    padding: 0px 10px;
+  }
+  .logo__footer img {
+    max-width: 170px;
+  }
+  .flex__elems {
+    flex: 0 0 100%;
+  }
+  .work__box {
+    width: 100% !important;
+    flex: 0 0 90%;
+    margin: 0 auto;
+  }
+  .specialist .container .flex {
+    justify-content: center;
+  }
+  .img__specialist img {
+    max-width: 303px;
+    max-height: 305px;
+  }
+  .img__visit img {
+    max-width: 303px;
+    max-height: 305px;
+  }
+  .btn{
+    padding: 8px 20px;
+  }
+}
