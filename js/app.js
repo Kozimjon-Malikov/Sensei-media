@@ -43,7 +43,10 @@ window.addEventListener("DOMContentLoaded", () => {
       chance__items.classList.toggle("activeChance");
     });
     blackker.addEventListener("click", () => {
-      document.querySelector('.body__wrapper').classList.toggle('bodyDark');
+      let sections=document.querySelectorAll('.container');
+      sections.forEach(elems=>{
+        elems.style.filter='grayscale(1)'
+      })
     });
     let fsize=16;
     inc.addEventListener('click',()=>{

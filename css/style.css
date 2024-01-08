@@ -13,6 +13,9 @@ html{
   --bg-blue: rgba(119, 178, 211, 1);
   --text-black: rgba(51, 51, 51, 1);
 }
+.bodyDark{
+    filter: grayscale(1)!important;
+}
 body {
   background: rgba(247, 246, 255, 1);
 }
@@ -609,9 +612,6 @@ footer{
 }
 .activeChance{
     display: block;
-}
-.bodyDark{
-    filter: grayscale(100%);
 }
 .fs{
     font-size: 30px!important;
